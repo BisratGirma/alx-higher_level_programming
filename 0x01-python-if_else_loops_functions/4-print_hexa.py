@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(99):
-    print(i, " = ", hex(i))
+    print("{0} =".format(i), hex(i))
