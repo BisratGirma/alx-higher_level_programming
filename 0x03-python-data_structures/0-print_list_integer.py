@@ -8,4 +8,3 @@ def print_list_integer(my_list=[]):
     while i < len(my_list):
         print("{:d}".format(my_list[i]))
         i += 1
-
