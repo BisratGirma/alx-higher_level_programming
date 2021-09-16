@@ -12,7 +12,7 @@ def main(argv):
         exit(1)
     a = int(argv[1])
     b = int(argv[3])
-    operator = argv[2]
+    in_op = argv[2]
     if in_op not in '+-/*':
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
