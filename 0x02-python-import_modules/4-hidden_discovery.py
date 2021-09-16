@@ -1,4 +1,7 @@
-if __name__ == '__main__':
+#!/usr/bin/python3
+if __name__ == "__main__":
     import hidden_4
-
-    li = [i for i in dir 
+    for name in dir(hidden_4):
+        if name.startswith('__'):
+            continue
+        print("{:s}".format(name))
