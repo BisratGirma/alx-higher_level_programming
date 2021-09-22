@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
-    if a_dictionary is None:
+    if (a_dictionary is None) or (bool(a_dictionary) is False):
         return None
     highest = -1
     high_key = ""
