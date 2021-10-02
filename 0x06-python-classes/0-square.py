@@ -5,5 +5,6 @@ This class is empty. defined only for example
 
 """
 
+
 class Square:
     pass
