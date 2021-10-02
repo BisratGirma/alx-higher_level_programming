@@ -7,7 +7,5 @@ This class is empty. defined only for example
 
 
 class Square:
-"""This class have no purpose.
-
-"""
+    """This class have no purpose. """
     pass
