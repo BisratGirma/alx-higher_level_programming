@@ -1,10 +1,18 @@
 #!/usr/bin/python3
 
-'''module for shapes'''
+"""Contains a different Shapes
+
+"""
 
 
 class Rectangle:
-    '''class for rectangle'''
+    """Actions and Properties of a Rectangle
+
+    Args:
+        width (int): width of a rectangle object.
+        height (int): height of a rectangle object.
+
+    """
 
     def __init__(self, width=0, height=0):
         '''Initiation of object'''

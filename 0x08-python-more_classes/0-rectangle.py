@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-'''empty class for rectangle'''
+'''class for rectangle with no purpose'''
 
 
 class Rectangle:
