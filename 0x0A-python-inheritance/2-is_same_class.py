@@ -18,7 +18,7 @@ def is_same_class(obj, a_class):
         return a_class is bool
     elif obj is None:
         return a_class is None
-    elif obj is list:
+    elif isinstance(obj, list):
         return a_class is list
     else:
         return isinstance(obj, a_class)
